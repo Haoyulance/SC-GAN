@@ -115,7 +115,7 @@ Use the following command to run the testing script:
 
 ## License
 
-If you use this code for your research, please be familiar with the [LICENSE](./LICENSE) and cite our papers.
+If you use this code for your research, please be familiar with the [LICENSE](./LICENSE) and cite our paper.
 
 ## Developer
 Haoyu Lan  
