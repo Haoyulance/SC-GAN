@@ -119,7 +119,7 @@ If you use this code for your research, please be familiar with the [LICENSE](./
 
 ## Developer
 Haoyu Lan  
-INI Microstructural imaging Group ([IMG](https://www.ini.usc.edu/img/))   
+INI Microstructural imaging Group ([IMG](https://www.ini.usc.edu/IMG/))   
 USC Stevens Neuroimaging and Informatics Institute  
 Keck School of Medicine, University of Southern California
 
