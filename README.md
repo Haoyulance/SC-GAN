@@ -124,5 +124,5 @@ USC Stevens Neuroimaging and Informatics Institute
 Keck School of Medicine, University of Southern California
 
 ## Citation
-Lan H, Toga AW, Sepehrband F. SC-GAN: 3D self-attention conditional GAN with spectral normalization for multi-modal neuroimaging synthesis, *under review* [bioRxiv copy](https://www.biorxiv.org/content/10.1101/2020.06.09.143297v1)
+Lan H, Toga AW, Sepehrband F. Three- dimensional self- attention conditional GAN with spectral normalization for multimodal neuroimaging synthesis. Magn Reson Med.  2021;00:1– 16. https://doi.org/10.1002/mrm.28819 [bioRxiv copy](https://www.biorxiv.org/content/10.1101/2020.06.09.143297v1)
 
