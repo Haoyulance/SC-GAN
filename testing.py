@@ -87,9 +87,9 @@ def main(args):
         mse2 = get_mean(mse2_raw)
         mse3 = get_mean(mse3_raw)
         rmse = (np.mean(np.sqrt(mse)) + np.mean(np.sqrt(mse2)) + np.mean(np.sqrt(mse3))) / 3 / 2
-        mse = get_psnr_mean(mse_raw)
-        mse2 = get_psnr_mean(mse2_raw)
-        mse3 = get_psnr_mean(mse3_raw)
+        mse = get_psnr_mean(mse_raw, FLAGS.img_size)
+        mse2 = get_psnr_mean(mse2_raw, FLAGS.img_size)
+        mse3 = get_psnr_mean(mse3_raw, FLAGS.img_size)
         mse[mse == 0] = 1e-10
         mse2[mse2 == 0] = 1e-10
         mse3[mse3 == 0] = 1e-10
