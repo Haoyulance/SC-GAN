@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import copy
 
 def get_mean(matrix):
     result = list()
