@@ -51,7 +51,8 @@ def log10(x):
 
 def batch_norm(*args, **kwargs):
     with tf.name_scope('bn'):
-        bn = tf.layers.batch_normalization(*args, **kwargs)
+#         bn = tf.layers.batch_normalization(*args, **kwargs) # for training with batch size larger than 1
+        bn = tf.contrib.layers.instance_norm(*args, **kwargs) # for training with batch size equals to 1
     return bn
 
 def lkrelu(x, slope=0.01):
